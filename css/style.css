@@ -32,8 +32,8 @@ em, i {
 }
 
 p {
-	margin: 0 0 2em 0;
-
+	/*margin: 0 0 2em 0;*/
+	font-size: 13pt;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,9 +61,9 @@ h2 {
 }
 
 h3 {
-	font-size: 1.35em;
+	font-size: 1.25em;
 	line-height: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h4 {
@@ -113,6 +113,12 @@ img{
 header{
   margin-bottom: 22px;
 }
+header #header-logo{
+	width: 520px;
+	max-width: 100%;
+	margin-bottom: 52px;
+
+}
 .hero-image{
   position: absolute;
   z-index: 0;
@@ -129,22 +135,25 @@ header{
 #hero-bottles-full{
   position:relative;
   text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
   z-index: 1;
-  padding-top: 94px;
+  padding-top: 44px;
 }
 #hero-bottles-full h2{
-  margin-bottom: 82px;
+	font-weight: 300;
+  margin-bottom: 42px;
 }
 
 #hero-bottle-image-full{
 
-  width: 680px;
+  width: 630px;
 
 }
 
 @media(max-width: 1300px){
   .hero-image{
-    height: 550px;
+    height: 580px;
   }
   #hero-bottle-image-full{
     width: 580px;
@@ -152,15 +161,15 @@ header{
 }
 @media(max-width: 950px){
   .hero-image{
-    height: 490px;
+    height: 540px;
   }
   #hero-bottle-image-full{
-    width: 480px;
+    width: 502px;
   }
 }
 @media(max-width: 620px){
   .hero-image{
-    height: 440px;
+    height: 480px;
   }
   #hero-bottle-image-full{
     width: 400px;
@@ -169,16 +178,17 @@ header{
 @media(max-width: 500px){
   .hero-image{
 
-    height: 400px;
+    height: 426px;
   }
 
   #hero-bottle-image-full{
     width: 320px;
   }
   #hero-bottles-full h2{
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 }
+
 @media(max-width: 415px){
 	.hero-image{
 		height: 400px;
@@ -187,7 +197,7 @@ header{
     width: 320px;
   }
   #hero-bottles-full h2{
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 }
 @media(max-width: 360px){
@@ -195,19 +205,53 @@ header{
     height: 364px;
   }
   #hero-bottle-image-full{
+
     width: 290px;
   }
   #hero-bottles-full h2{
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin-top: -34px;
-    margin-bottom: 64px;
+    margin-bottom: 54px;
+  }
+}
+@media(max-width: 331px){
+	#hero-bottles-full h2{
+
+    margin-bottom: 28px;
+  }
+}
+@media(max-width: 316px){
+	.hero-image{
+    height: 364px;
+  }
+}
+@media(max-width: 288px){
+	.hero-image{
+    height: 334px;
+  }
+}
+@media(max-width: 248px){
+	.hero-image{
+    height: 300px;
   }
 }
 
 #main-body{
-  margin-top: 40px;
+  margin-top: 0px;
   padding-right: 8%;
   padding-left: 8%;
+}
+
+h3{
+	margin-bottom: 12px;
+}
+
+p{
+	margin-bottom: 22px;
+}
+
+.headline{
+	font-weight: 400;
 }
 
 #products{
