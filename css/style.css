@@ -254,10 +254,9 @@ p{
 	font-weight: 400;
 }
 
-#products{
-  padding-right: 11%;
-  padding-left: 11%;
-
+.product-container{
+  padding-right: 9%;
+  padding-left: 9%;
 }
 .product{
 	text-align: center;
@@ -266,7 +265,7 @@ p{
 .product-image{
 	max-width: 100%;
   width: 180px;
-  margin-right: 38px;
+  margin-right: 88px;
 	margin-bottom: 0px;
   float: left;
 }
