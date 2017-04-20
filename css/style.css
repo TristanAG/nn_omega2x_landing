@@ -1,0 +1,220 @@
+
+body, input, select, textarea {
+	color: #666;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+	line-height: 1.50em;
+}
+
+a {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	border-bottom: dotted 1px #666;
+	color: inherit;
+	text-decoration: none;
+}
+
+	a:hover {
+		border-bottom-color: transparent !important;
+		color: #6bd4c8;
+	}
+
+strong, b {
+	color: #555;
+	font-weight: 600;
+}
+
+em, i {
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 2em 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #555;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+h1 {
+	font-size: 2.25em;
+	line-height: 1.35em;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1.35em;
+  margin-right: 12px;
+  margin-left: 12px;
+
+}
+
+h3 {
+	font-size: 1.35em;
+	line-height: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+h5 {
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+h6 {
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+sub {
+	font-size: 0.8em;
+	position: relative;
+	top: 0.5em;
+}
+
+sup {
+	font-size: 0.4em;
+	position: relative;
+	top: -.9em;
+}
+
+hr {
+	border: 0;
+	border-bottom: solid 2px rgba(144, 144, 144, 0.5);
+	margin: 2em 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+img{
+  max-width: 100%;
+}
+
+header{
+  margin-bottom: 22px;
+}
+.hero-image{
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+  width: 3000px;
+  height: 610px;
+}
+
+#hero-bottles-full{
+  position:relative;
+  text-align: center;
+  z-index: 1;
+  padding-top: 94px;
+}
+#hero-bottles-full h2{
+  margin-bottom: 82px;
+}
+
+#hero-bottle-image-full{
+
+  width: 680px;
+
+}
+
+@media(max-width: 1300px){
+  .hero-image{
+    height: 550px;
+  }
+  #hero-bottle-image-full{
+    width: 580px;
+  }
+}
+@media(max-width: 950px){
+  .hero-image{
+    height: 490px;
+  }
+  #hero-bottle-image-full{
+    width: 480px;
+  }
+}
+@media(max-width: 620px){
+  .hero-image{
+    height: 440px;
+  }
+  #hero-bottle-image-full{
+    width: 400px;
+  }
+}
+@media(max-width: 500px){
+  .hero-image{
+    height: 400px;
+  }
+  #hero-bottle-image-full{
+    width: 320px;
+  }
+  #hero-bottles-full h2{
+    font-size: 1.8em;
+  }
+}
+@media(max-width: 415px){
+  .hero-image{
+    height: 400px;
+  }
+  #hero-bottle-image-full{
+    width: 320px;
+  }
+  #hero-bottles-full h2{
+    font-size: 1.6em;
+  }
+}
+@media(max-width: 360px){
+  .hero-image{
+    height: 364px;
+  }
+  #hero-bottle-image-full{
+    width: 290px;
+  }
+  #hero-bottles-full h2{
+    font-size: 1.6em;
+    margin-top: -34px;
+    margin-bottom: 64px;
+  }
+}
+
+#main-body{
+  margin-top: 40px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+#products{
+  padding-right: 11%;
+  padding-left: 11%;
+}
+.product-image{
+
+  width: 180px;
+  margin-right: 38px;
+  float: left;
+}
+.product-description{
+  display: inline;
+
+}
+.product-description h4{
+  padding-top: 28px;
+
+}
