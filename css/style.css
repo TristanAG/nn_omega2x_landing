@@ -257,6 +257,11 @@ p{
 .product-container{
   padding-right: 9%;
   padding-left: 9%;
+	padding-top: 42px;
+	padding-bottom: 38px;
+}
+.gray-fill{
+	background-color: #EEEEEE;
 }
 .product{
 	text-align: center;
