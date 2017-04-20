@@ -119,6 +119,11 @@ header{
   max-width: 100%;
   width: 3000px;
   height: 610px;
+	display: block;
+}
+.hero-image-mobile{
+	max-width: 100%;
+	display: none;
 }
 
 #hero-bottles-full{
@@ -163,8 +168,10 @@ header{
 }
 @media(max-width: 500px){
   .hero-image{
+
     height: 400px;
   }
+
   #hero-bottle-image-full{
     width: 320px;
   }
@@ -173,9 +180,9 @@ header{
   }
 }
 @media(max-width: 415px){
-  .hero-image{
-    height: 400px;
-  }
+	.hero-image{
+		height: 400px;
+	}
   #hero-bottle-image-full{
     width: 320px;
   }
@@ -259,4 +266,26 @@ header{
 .product-description h4{
   padding-top: 28px;
 
+}
+
+footer{
+	padding-top: 38px;
+	padding-bottom: 38px;
+	text-align: center;
+}
+footer img{
+	width: 420px;
+	max-width: 100%;
+}
+
+footer #fda-message{
+
+	margin-top: 18px;
+	margin-bottom: 18px;
+	border: 1px solid lightgray;
+
+	font-size: .58em;
+	text-align: left;
+	line-height: 1.2em;
+	padding: 2px;
 }
