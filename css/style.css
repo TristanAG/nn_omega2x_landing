@@ -279,10 +279,11 @@ p{
 	margin-bottom: 0px;
   float: left;
 }
+
 @media(max-width: 685px){
 	.product-image{
 		margin-top: 12px;
-		margin-bottom: 12px;
+		margin-bottom: 16px;
 	}
 }
 @media(max-width: 666px){
