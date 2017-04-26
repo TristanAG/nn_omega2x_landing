@@ -55,8 +55,9 @@ h1 {
 h2 {
 	font-size: 2em;
 	line-height: 1.35em;
-  margin-right: 12px;
-  margin-left: 12px;
+  /*margin-right: 12px;
+  margin-left: 12px;*/
+	text-align: center;
 
 
 }
