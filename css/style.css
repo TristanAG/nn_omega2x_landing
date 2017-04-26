@@ -322,12 +322,14 @@ p{
 
 }
 
-button{
+a{
 	background-color: white;
 	transition: .3s;
 }
-button:hover{
+a:hover{
 	background-color: gray;
+}
+.button:hover{
 	color: white;
 }
 
