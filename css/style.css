@@ -330,6 +330,9 @@ a{
 a:hover{
 	background-color: gray;
 }
+.button{
+	background-color: white;
+}
 .button:hover{
 	color: white;
 }
