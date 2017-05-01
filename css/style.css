@@ -170,9 +170,17 @@ header #header-logo{
     width: 502px;
   }
 }
+@media(max-width: 819px){
+  .hero-image{
+    height: 580px;
+  }
+  #hero-bottle-image-full{
+    width: 502px;
+  }
+}
 @media(max-width: 620px){
   .hero-image{
-    height: 480px;
+    height: 520px;
   }
   #hero-bottle-image-full{
     width: 400px;
@@ -181,7 +189,7 @@ header #header-logo{
 @media(max-width: 500px){
   .hero-image{
 
-    height: 426px;
+    height: 448px;
   }
 
   #hero-bottle-image-full{
@@ -194,7 +202,7 @@ header #header-logo{
 
 @media(max-width: 415px){
 	.hero-image{
-		height: 400px;
+		height: 430px;
 	}
   #hero-bottle-image-full{
     width: 320px;
@@ -205,7 +213,7 @@ header #header-logo{
 }
 @media(max-width: 360px){
   .hero-image{
-    height: 364px;
+    height: 380px;
   }
   #hero-bottle-image-full{
 
@@ -218,6 +226,9 @@ header #header-logo{
   }
 }
 @media(max-width: 331px){
+	.hero-image{
+    height: 364px;
+  }
 	#hero-bottles-full h2{
 
     margin-bottom: 28px;
@@ -228,14 +239,19 @@ header #header-logo{
     height: 364px;
   }
 }
+@media(max-width: 303px){
+	.hero-image{
+    height: 384px;
+  }
+}
 @media(max-width: 288px){
 	.hero-image{
-    height: 334px;
+    height: 368px;
   }
 }
 @media(max-width: 248px){
 	.hero-image{
-    height: 300px;
+    height: 330px;
   }
 }
 
@@ -369,4 +385,12 @@ header a{
 }
 header a:hover{
 	background-color: transparent
+}
+
+#main-body a{
+	text-decoration: underline;
+}
+#main-body a:hover{
+	background-color: transparent;
+	color: black;
 }
