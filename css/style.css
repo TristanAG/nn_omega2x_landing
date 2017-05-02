@@ -365,9 +365,10 @@ footer img{
 
 #fda-message{
 
-
+	max-width: 100%;
 	text-align: left;
 	margin-left: 4px;
+	margin-right: 4px;
 	margin-top: -28px;
 	font-size: .51em;
 	width: 360px;
