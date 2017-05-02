@@ -365,15 +365,18 @@ footer img{
 
 #fda-message{
 
+	width: 360px;
 	max-width: 100%;
 	text-align: left;
-	margin-left: 4px;
-	margin-right: 4px;
+	padding-left: 8px;
+	margin-right: 12px;
+	margin-bottom: 4px;
+
 	margin-top: -28px;
 	font-size: .51em;
-	width: 360px;
+
 	line-height: 1.2em;
-	padding: 2px;
+
 }
 
 footer a:hover{
